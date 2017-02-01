@@ -1,4 +1,8 @@
+sudo: required
+dist: trusty
 language: nodejs
+node_js:
+  - 'node'
 before_script:
   npm install
 script: npm test
