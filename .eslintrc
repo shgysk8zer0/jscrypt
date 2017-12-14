@@ -8,7 +8,7 @@
         "sourceType": "module",
         "ecmaVersion": 2017
     },
-    "plugins": ["async-await", "babel"],
+    "plugins": ["async-await"],
     "rules": {
         "indent": [
             2,
@@ -25,5 +25,9 @@
         "no-console": 0,
         "async-await/space-after-async": 2,
         "async-await/space-after-await": 2
+    },
+    "globals": {
+        "URLSearchParams": false,
+        "ga": false
     }
 }

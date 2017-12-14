@@ -9,11 +9,11 @@
     "JSCrypt"
   ],
   "scripts": {
-    "test": "eslint --ext .es6 ."
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shgysk8zer0/JSCrypt.git"
+    "url": "git+https://github.com/shgysk8zer0/jscrypt.git"
   },
   "author": {
     "name": "Chris Zuber",
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/shgysk8zer0/JSCrypt/issues"
   },
-  "homepage": "https://github.com/shgysk8zer0/JSCrypt#readme",
+  "homepage": "https://github.com/shgysk8zer0/jscrypt#readme",
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
